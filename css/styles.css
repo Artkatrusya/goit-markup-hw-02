@@ -31,7 +31,7 @@ a:active {
 .logo-header {
   width: 44px;
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -67,6 +67,10 @@ a:active {
   color: #404bbf;
 }
 
+.nav-item:focus {
+  color: #404bbf;
+}
+
 .address {
   color: #434455;
   /* Body */
@@ -89,6 +93,10 @@ a:active {
 }
 
 .address-item:active {
+  color: #404bbf;
+}
+
+.address-item:focus {
   color: #404bbf;
 }
 
@@ -119,7 +127,7 @@ a:active {
   gap: 10px;
   color: #fff;
   /* Button Text */
-  font-family: Raleway, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em; /* 150% */
@@ -159,10 +167,11 @@ a:active {
   color: #2e2f42;
   text-align: center;
   /* Header 3 */
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2em; /* 120% */
-  letter-spacing: 0.4px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .p-features {
@@ -200,7 +209,7 @@ a:active {
   letter-spacing: 0.32px;
 }
 
-.h3-portfolio {
+.portfolio-item {
   color: #2e2f42;
   /* Header 3 */
   font-size: 20px;
@@ -227,7 +236,7 @@ a:active {
 
 .logo-footer-studio {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17em; /* 116.667% */
