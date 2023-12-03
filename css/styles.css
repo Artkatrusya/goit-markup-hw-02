@@ -1,7 +1,7 @@
 /* HEADER */
 .body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -31,11 +31,11 @@ a:active {
 .logo-header {
   width: 44px;
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16667em; /* 21px */
+  line-height: 1.17em; /* 21px */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -50,12 +50,46 @@ a:active {
   gap: 40px;
 }
 
+.nav-item {
+  color: #2e2f42;
+  /* Body Medium */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.nav-item:hover {
+  color: #404bbf;
+}
+
+.nav-item:active {
+  color: #404bbf;
+}
+
 .address {
   color: #434455;
   /* Body */
   font-size: 16px;
   line-height: 1.5em; /* 24px */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.address-item {
+  color: #434455;
+  /* Body */
+  font-size: 16px;
+  line-height: 1.5em; /* 24px */
+  letter-spacing: 0.02em;
+}
+
+.address-item:hover {
+  color: #404bbf;
+}
+
+.address-item:active {
+  color: #404bbf;
 }
 
 /* HERO */
@@ -71,7 +105,7 @@ a:active {
   /* Header 1 */
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07143em; /* 107.143% */
+  line-height: 1.07em; /* 107.143% */
   letter-spacing: 1.12px;
 }
 
@@ -85,15 +119,20 @@ a:active {
   gap: 10px;
   color: #fff;
   /* Button Text */
+  font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .order-service-btn:hover {
   background: #404bbf;
-  cursor: pointer;
+}
+
+.order-service-btn:focus {
+  background: #404bbf;
 }
 
 .h2-header {
@@ -102,12 +141,12 @@ a:active {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111em; /* 111.111% */
+  line-height: 1.11em; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
-.h3-features {
+.features-item {
   color: #2e2f42;
   /* Header 3 */
   font-size: 20px;
@@ -116,7 +155,7 @@ a:active {
   letter-spacing: 0.4px;
 }
 
-.h3-header {
+.block-header {
   color: #2e2f42;
   text-align: center;
   /* Header 3 */
@@ -134,7 +173,15 @@ a:active {
   letter-spacing: 0.32px;
 }
 
-.h3-team {
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.team-box {
+  background-color: #ffffff;
+}
+
+.team-item {
   color: #2e2f42;
   text-align: center;
   /* Header 3 */
@@ -180,10 +227,10 @@ a:active {
 
 .logo-footer-studio {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667em; /* 116.667% */
+  line-height: 1.17em; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
